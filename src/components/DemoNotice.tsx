@@ -44,11 +44,6 @@ export function DemoNotice() {
 
   return (
     <>
-      <button type="button" className="demo-badge" onClick={() => setOpen(true)}>
-        <span aria-hidden="true" />
-        Site de demonstração
-      </button>
-
       {open && (
         <div className="demo-overlay" onClick={() => setOpen(false)}>
           <div

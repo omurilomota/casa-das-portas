@@ -26,3 +26,10 @@ Thumbs.db
 
 # Ferramentas locais de agente
 .kilo/
+.vercel
+
+# Conteúdo interno e artefatos locais (não publicar)
+ROTEIRO-APRESENTACAO.md
+_ops/
+.kilo/
+dist/
