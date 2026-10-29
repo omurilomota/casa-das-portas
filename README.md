@@ -4,8 +4,10 @@ Vitrine digital de uma loja de portas, janelas, esquadrias e madeira em Junqueir
 
 > **Demonstração pública.** Telefone, WhatsApp, e-mail, endereço, redes sociais, fotos de produto e preços são fictícios. Nenhum contato ou pedido é enviado de verdade.
 
-**Demo:** _a ser publicada na Vercel_  
+**Demo:** [casa-das-portas.vercel.app](https://casa-das-portas.vercel.app)  
 **Stack:** React 19 · TypeScript · Vite 7 · Tailwind CSS 4 · Lucide
+
+![Prévia da vitrine Casa das Portas](docs/preview.jpg)
 
 ## O que o site entrega
 
@@ -35,7 +37,7 @@ O build usa `vite-plugin-singlefile`: todo o CSS e JavaScript ficam embutidos no
 ```
 src/
   assets/photos.ts      # mapa de imagens locais e de referência
-  components/           # marca, QR Code removido, aviso de demonstração
+  components/           # marca e aviso de demonstração
   data/
     store.ts            # dados fictícios da loja (fonte única)
     showcase.ts         # catálogo de exemplo
