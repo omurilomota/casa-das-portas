@@ -336,7 +336,7 @@ function Footer({ settings }: { settings: { whatsapp: string; phone: string } })
         <div className="footer-links"><strong>EXPLORE</strong><a href="#produtos">Produtos</a><a href="#historia">Nossa história</a><a href="#chegar">Contato</a></div>
         <div className="footer-links"><strong>FALE COM A LOJA</strong><a href={telLink(settings.phone)}>{formatPhone(settings.phone)}</a><span>Junqueirópolis - SP</span><a href={waLink(settings.whatsapp)} target="_blank" rel="noreferrer">WhatsApp <ArrowUpRight size={13} /></a></div>
       </div>
-      <div className="page-width footer-bottom"><p>Site de demonstração. Contatos, fotos e preços são fictícios.</p><span>Feito para portfólio</span></div>
+      <div className="page-width footer-bottom"><p>Site de demonstração. Contatos, fotos e preços são fictícios.</p><span>Feito para portfólio</span><a className="footer-credit" href="https://wa.me/5518998133524" target="_blank" rel="noreferrer" aria-label="Falar com Murilo Mota no WhatsApp">Desenvolvido por Murilo Mota · 55 (18) 99813-3524</a></div>
     </footer>
   );
 }
